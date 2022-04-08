@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h6,p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ ul li{
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#header_top_banner img{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.mini-nav-container{
+    background-color: #f0f0f0;
+}
+/* .mini-navber{
+    padding: 0 !important;
+} */
+
+.mini-navber a{
+    color: gray;
+    font-size: 13px;
+    font-weight: 500;
+}
+.mini-navber a:hover{
+     color: #000000;
+}
+.mini-nav-acount{
+    width: 150px;
+    padding: 0 3px;
+}
+.mini-nav-acount p {
+	font-size: 12px;
+	text-align: center;
+
+}
+button.btn.btn-join {
+	background: #FF4747;
+	padding: 1px 13px;
+	color: #fff;
+    font-weight: 600;
+}
+button.btn.btn-sign-in {
+	background: #FFF1F1;
+	color: #FF4747;
+	padding: 1px 10px;
+    font-weight: 600;
+}
+.account-links a {
+	display: block;
+	padding: 5px 0px 5px 5px;
+}
+.account-links a:hover {
+	background: #DDDADA;
+}
+.bangla-img {
+	width: 32px;
+	height: 19px;
+}
+
+.country-and-currency {
+    font-weight: 600;
+	padding: 0px 0px 0px 11px;
+}
+.country-and-currency label {
+	padding: 2px 0;
+	font-size: 15px;
+    width: 90%;
+}
+.btn-language {
+	background: #FF4747;
+	width: 90%;
+	padding: 2px 2px;
+	margin-top: 5%;
+	border: none;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
